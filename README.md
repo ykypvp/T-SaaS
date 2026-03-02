@@ -4,8 +4,9 @@ A dynamic dashboard driven by Markdown. No compilation or complex setup required
 
 Currently, T-SaaS is in ALPHA version, so it MAY contain errors.
 
-Test the project: https://ykypvp.github.io/T-SaaS/
+Test the project in english: https://ykypvp.github.io/T-SaaS/
 
+Teste o projeto em português: https://ykypvp.vercel.app/
 ---
 
 ## Overview
