@@ -1,24 +1,23 @@
-# Introdução
-## O que é o T-SaaS
-    "O T-SaaS é uma interface dinâmica (Dashboard) que utiliza um motor de renderização baseado em arquivos Markdown. Ele permite criar interfaces complexas apenas editando este arquivo de configuração, sem a necessidade de recompilar o código fonte."
+# Introduction
+## What is T-SaaS
+    "T-SaaS is a dynamic dashboard interface powered by a Markdown-based rendering engine. It enables the creation of complex interfaces solely by editing a configuration file, eliminating the need for source code recompilation."
 
-## Arquitetura do Sistema
-    "O núcleo do sistema funciona através de um parser que identifica headers de primeiro nível `#` como itens de menu e headers de segundo nível `##` como blocos de conteúdo reativos."
+## System Architecture
+    "The core system utilizes a parser that identifies first-level headers `#` as sidebar menu items and second-level headers `##` as reactive content blocks."
+    # Usage Guide
+## Tab Configuration
+    "To create a new tab in the side menu, use the `#` prefix followed by the tab name. All content following this header belongs to that section until a new level 1 header is declared."
 
-# Guia de Uso
-## Como Configurar Abas
-    "Para criar uma nova aba no menu lateral, utilize o prefixo `#` seguido do nome da aba. Todo o conteúdo abaixo desse header pertencerá a essa seção até que um novo header de nível 1 seja declarado."
+## Block Creation
+    "Within each tab, you can generate multiple information blocks using `##`. The block text must be enclosed in double quotes within the configuration file to ensure correct interface rendering."
+# Commands and Actions
+## Button Integration
+    "Buttons are declared using brackets and quotes. The format is `["Button Name : function"]`. These functions must be mapped within the `ACTIONS` object inside the `index.html` file."
 
-## Criação de Blocos
-    "Dentro de cada aba, você pode criar múltiplos blocos de informação utilizando `##`. O texto do bloco deve estar entre aspas duplas no arquivo de configuração para ser renderizado corretamente na interface."
+## Code Functionalities
+    "The system supports simple syntax highlighting for terminal commands. Any text enclosed in backticks will be formatted as a code block with automatic click-to-copy functionality."
 
-# Comandos e Ações
-## Integração de Botões
-    "Os botões são declarados usando colchetes e aspas. O formato é `["Nome do Botão : função"]`. As funções devem estar mapeadas dentro do objeto `ACTIONS` no arquivo `index.html`."
-
-## Funcionalidades de Código
-    "O sistema suporta realce de sintaxe simples para comandos de terminal. Qualquer texto entre crases será formatado como bloco de código clicável para cópia automática."
-
-# Código Fonte
+# Source Code
 ## index.html
-    "O código está no seguinte link: `https://justpaste.it/gygoq`"
+
+    "The source code is available at the following link: `https://justpaste.it/gygoq`"
